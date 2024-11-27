@@ -1,0 +1,76 @@
+/* Main container styling */
+.maincontainer {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Page title */
+.maincontainer h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Form labels */
+form label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+/* Input fields */
+.input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+/* Focus effect for inputs */
+.input:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Submit button */
+.button {
+    width: 80%;
+    padding: 12px;
+    background-color: #3498c2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.error-line{
+    color: red;
+    margin-top: 0px;
+    font-size: small;
+}
+
+/* Hover effect for button */
+.button:hover {
+    background-color: #23627d;
+}
+
+/* Add some spacing at the bottom of the page */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+}

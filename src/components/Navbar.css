@@ -1,0 +1,48 @@
+ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    color: black;
+    text-decoration: solid;
+    list-style: none;
+    text-decoration-line: none;
+
+
+}
+
+#logoutbutton{
+    background-color:#3498c2;
+    border: none;
+    text-decoration: double;
+
+}
+
+#logoutbutton:hover{
+    background-color: rgb(117, 201, 224);
+    transition:0.3s;
+    border-radius: 5px;
+}
+
+.nav{
+    background-color: #3498c2;
+    margin-top: 0px;
+    padding: 2px;
+
+}
+
+.nav-item{
+    padding: 5px;
+    margin-right: 30px;
+}
+
+.nav-item:hover{
+    background-color: rgb(117, 201, 224);
+    transition:0.3s;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration-line: none;
+    text-decoration: double;
+    color: black;
+}
