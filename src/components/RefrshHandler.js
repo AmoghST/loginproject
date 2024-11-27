@@ -1,6 +1,5 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
-import { Navigate } from 'react-router-dom';
 
 
 function RefrshHandler({ setIsAuthenticated }) {

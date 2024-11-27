@@ -1,5 +1,4 @@
 import * as Yup from 'yup'
-import React from 'react'
 
 export const SignupValidation = Yup.object({
     name:Yup.string().min(2).max(10).required("please enter your name"),
