@@ -25,7 +25,7 @@ const Login = () => {
       
       console.log(values)
 
-      let response = await fetch('http://localhost:4000/auth/login',{
+      let response = await fetch('http://localhost:5100/auth/login',{
         method:'POST',
         headers:{
           'Content-Type':'application/json'

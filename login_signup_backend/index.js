@@ -1,5 +1,7 @@
+require('dotenv').config();
+
 const express = require('express');
-const PORT = 4000;
+const port = process.env.DB_PORT
 const cors = require('cors');
 const useAuthrouter = require('./routes/auth')
 const useNoterouter = require('./routes/notes')
@@ -15,6 +17,6 @@ app.use('/notes', useNoterouter);
 
 
 
-app.listen(PORT, ()=>{
-    console.log(`your server is running of port ${PORT}`)
+app.listen(port, ()=>{
+    console.log(`your server is running of port ${port}`)
 })
