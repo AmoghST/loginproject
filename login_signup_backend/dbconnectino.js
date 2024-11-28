@@ -3,7 +3,8 @@ const mongoose = require('mongoose');
 
 
 
-const url = process.env.DB_URL;
+const url = process.env.DB_URL
+
 
 
 async function connectToMongo(){
