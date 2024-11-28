@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 
 
-const url = process.env.DB_URL || 'mongodb+srv://talekaramogh554:kz1cwsYYHDX8HKBe@login.wglop.mongodb.net/?retryWrites=true&w=majority&appName=Login'
+const url = process.env.DB_URL;
 
 
 async function connectToMongo(){
