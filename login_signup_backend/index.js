@@ -7,7 +7,12 @@ const useAuthrouter = require('./routes/auth')
 const useNoterouter = require('./routes/notes')
 
 const app = express();
-app.use(cors());
+app.use(cors({
+    origin: ["https://loginproject-nu.vercel.app"],
+    methods: ["POST","GET"],
+    credentials: true
+}
+    ));
 app.use(express.json());
 const connectToMongo = require('./dbconnectino')
 connectToMongo();
