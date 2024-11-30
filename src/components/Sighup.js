@@ -20,7 +20,7 @@ const Signup = () => {
         validationSchema: SignupValidation,
         onSubmit: async (values) => {
             try {
-                const response = await fetch('http://localhost:5100/auth/signup', {
+                const response = await fetch('https://loginproject-nu.vercel.app/auth/signup', {
                     method: 'POST',
                     headers: {
                         "Content-Type": "application/json",
