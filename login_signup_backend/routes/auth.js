@@ -3,7 +3,7 @@ const express = require('express');
 
 const User = require('../models/User');
 const jwt = require('jsonwebtoken');
-const secretToken = process.env.SECRET_KEY;
+const secretToken = process.env.REACT_APP_SECRET_KEY;
 const router = express.Router();
 
 // Signup route

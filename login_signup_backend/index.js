@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 const express = require('express');
-const port = process.env.PORT || 5100;
+const port = process.env.REACT_APP_PORT || 5100;
 const cors = require('cors');
 const useAuthrouter = require('./routes/auth')
 const useNoterouter = require('./routes/notes')
